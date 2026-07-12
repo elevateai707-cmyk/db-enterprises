@@ -53,3 +53,7 @@ Tone: clear, practical, welcoming. Keep replies concise (2–4 sentences). Stay 
   fallbackMessage:
     'Our Assistant is unavailable right now. Please use the quote or contact form and the right team will follow up.',
 };
+
+/** Dedicated intake schema key in @agentic/forms FORMS_BY_SITE (replaces the
+ * former stopgap reuse of the 'build-with-db-guide' key). Used by /api/lead. */
+export const LEAD_FORM_KEY = 'db-enterprises';
